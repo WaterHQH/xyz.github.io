@@ -2,80 +2,38 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>我的图片画廊</title>
+  <title>我的个人图片</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      padding: 30px;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 40px;
     }
     h1 {
-      text-align: center;
       color: #333;
     }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
+    p {
+      font-size: 18px;
+      color: #666;
     }
-    .photo-card {
-      background: #fff;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .photo-card img {
-      width: 100%;
+    img {
+      max-width: 90%;
       height: auto;
-      border-radius: 6px;
-    }
-    .caption {
-      margin-top: 10px;
-      font-size: 16px;
-      color: #555;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-  <h1>我的图片画廊</h1>
 
-  <div class="gallery">
-    <div class="photo-card">
-      <img src="1.png" alt="图片 1">
-      <div class="caption">图片 1：这是我拍摄的日出风景</div>
-    </div>
+  <h1>欢迎来到我的网页！</h1>
+  <p>这是一张我最喜欢的照片，分享给大家：</p>
 
-    <div class="photo-card">
-      <img src="2.png" alt="图片 2">
-      <div class="caption">图片 2：一棵孤独的树，站在山顶上</div>
-    </div>
+  <img src="1.png" alt="我的图片" />
 
-    <div class="photo-card">
-      <img src="2_1.png" alt="图片 3">
-      <div class="caption">图片 3：城市夜景的灯光特别迷人</div>
-    </div>
+  <p>希望你喜欢这张图片 😊</p>
 
-    <div class="photo-card">
-      <img src="4.png" alt="图片 4">
-      <div class="caption">图片 4：一只可爱的猫咪在晒太阳</div>
-    </div>
-
-    <div class="photo-card">
-      <img src="5.png" alt="图片 5">
-      <div class="caption">图片 5：湖面倒影出天空的宁静</div>
-    </div>
-
-    <div class="photo-card">
-      <img src="6.png" alt="图片 6">
-      <div class="caption">图片 6：雨后的街道，湿漉漉的感觉</div>
-    </div>
-
-    <div class="photo-card">
-      <img src="1.png" alt="图片 7">
-      <div class="caption">图片 7：在山谷中远足，风景宜人</div>
-    </div>
-  </div>
 </body>
 </html>
